@@ -2,8 +2,8 @@
 
 $host = 'localhost';
 $dbname = 'fiap';
-$username = 'usuario';
-$password = 'root';
+$username = '';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
