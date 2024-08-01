@@ -10,6 +10,7 @@ Este é um **projeto PHP** para a gestão de turmas, alunos e matrículas. O sis
 ## 📑 Índice
 
 - [Estrutura do Projeto](#estrutura-do-projeto)
+- [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
 - [Configuração do Banco de Dados](#configuração-do-banco-de-dados)
 - [Executando o Servidor](#executando-o-servidor)
@@ -42,6 +43,30 @@ fiap/
 └── .gitignore              # Arquivo para listar os arquivos e diretórios a serem ignorados pelo Git
 ```
 
+## ✨ Funcionalidades
+
+O sistema oferece as seguintes funcionalidades:
+
+### Gestão de Turmas:
+- Criar, editar e excluir turmas.
+- Listar todas as turmas cadastradas.
+
+### Gestão de Alunos:
+- Criar, editar e excluir alunos.
+- Listar todos os alunos cadastrados.
+
+### Gestão de Matrículas:
+- Matricular alunos em turmas.
+- Listar todas as matrículas realizadas.
+- Cancelar uma matrícula.
+
+### Autenticação de Usuários:
+- Cadastro de novos usuários.
+- Login e logout de usuários.
+
+### Testes Automatizados:
+- Testes unitários para garantir a qualidade do código.
+
 ## 🔧 Instalação
 
 1. **Clonar o Repositório**
@@ -64,12 +89,13 @@ fiap/
 
    ```bash
    mysql -u root -p
+   ``` 
 
-Depois, no prompt do MySQL, execute:
+    Depois, no prompt do MySQL, execute:
 
    ```bash
    CREATE DATABASE fiap;
-   ```   
+    ``` 
 
 2. **Configurações**
 
@@ -96,11 +122,11 @@ Para iniciar o servidor e começar a usar o sistema, siga os passos abaixo:
 
 2. **Acessar a Aplicação**
 
-Abra o navegador e acesse a aplicação em:
+   Abra o navegador e acesse a aplicação em:
 
-```bash
-http://localhost:8000
-``` 
+   ```bash
+   http://localhost:8000
+   ``` 
 
 3. **Redirecionamento para a Página de Login**
 
