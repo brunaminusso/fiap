@@ -97,6 +97,12 @@ O sistema oferece as seguintes funcionalidades:
    CREATE DATABASE fiap;
     ``` 
 
+   Depois de criar o banco de dados, você precisa executar o dump SQL para criar as tabelas e inserir dados iniciais. Execute o seguinte comando para importar o arquivo `dump.sql` para o banco de dados criado:
+
+   ```bash
+   mysql -u root -p fiap < dump.sql
+   ```
+   
 2. **Configurações**
 
     Configure o arquivo database.php, localizado em `config/database.php`
