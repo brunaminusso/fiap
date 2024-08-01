@@ -120,7 +120,7 @@ Para iniciar o servidor e começar a usar o sistema, siga os passos abaixo:
 
 1. **Iniciar o Servidor Embutido do PHP**
 
-    Se você estiver usando o servidor embutido do PHP, você pode iniciar o servidor com o comando a seguir. Certifique-se de estar no diretório `public/index.php`:
+    Se você estiver usando o servidor embutido do PHP, você pode iniciar o servidor com o comando a seguir:
 
    ```bash
    php -S localhost:8000 -t public
