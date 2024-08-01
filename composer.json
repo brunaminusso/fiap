@@ -1,0 +1,21 @@
+{
+    "name": "brunaminusso/fiap_bruna_minusso",
+    "description": "Sistema de gestão de alunos e turmas.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brunaminusso\\FiapBrunaMinusso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruna Minusso",
+            "email": "brunaminusso@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}

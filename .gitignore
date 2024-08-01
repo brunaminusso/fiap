@@ -1,0 +1,6 @@
+*.log
+*.cache
+*.tmp
+.env
+vendor/
+.phpunit.result.cache
